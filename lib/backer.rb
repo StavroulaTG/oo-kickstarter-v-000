@@ -2,7 +2,7 @@ class Backer
   attr_accessor :name
 
   @@all = []
-  
+
   def initialize(name)
     @name = name
   end
@@ -11,4 +11,3 @@ class Backer
     self << @@all
   end
 end
-
